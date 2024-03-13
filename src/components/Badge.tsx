@@ -44,7 +44,7 @@ export const Badge = (props: Props) => {
         'background-color': props.badgeBackgroundColor ?? '#ffffff',
       }}
     >
-      Powered by
+      Powered by:
       <a
         ref={liteBadge}
         href={'https://www.sitebot.co.za'}
@@ -54,7 +54,7 @@ export const Badge = (props: Props) => {
         id="lite-badge"
         style={{ 'font-weight': 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
-        <span> SiteBot</span>
+        <span> SiteBot SA</span>
       </a>
     </span>
   );
